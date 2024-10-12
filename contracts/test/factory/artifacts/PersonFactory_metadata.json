@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "invokeMethod",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "personArr",
+				"outputs": [
+					{
+						"internalType": "contract Person",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test/factory/PersonFactory.sol": "PersonFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test/factory/Person.sol": {
+			"keccak256": "0x5bc0578ffd943a22f497a755855f608cffa3464140d504023011ecec3a70e742",
+			"urls": [
+				"bzz-raw://347dfb044267946df17af5c5788f8447701d869bb8a9afdf730b6867c9c7a996",
+				"dweb:/ipfs/QmeFQ3sxBXAkAYoNsYnxET7oMxvhqWVHBRGfQBxq6wJLx2"
+			]
+		},
+		"contracts/test/factory/PersonFactory.sol": {
+			"keccak256": "0x2b6a733373221a07a2ae3cc20451e44bad112233d50771aaf9fed40dd2bcdba5",
+			"urls": [
+				"bzz-raw://ae9967413a88e7db4249d5cd26d99ffb43e7487e1ea43a786c284d8f3aee5782",
+				"dweb:/ipfs/QmaadcRfyGmumpTbmwmYMamBVxAp7XTNDVZdJACu3syfP4"
+			]
+		}
+	},
+	"version": 1
+}

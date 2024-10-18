@@ -10,7 +10,7 @@ contract FundMe {
 
     AggregatorV3Interface internal dataFeed;
 
-    uint256 constant target = 1000 * 10 * 18;
+    uint256 constant target = 1000 * 10**18;
 
     address public owner;
 
@@ -40,6 +40,10 @@ contract FundMe {
         fundersToAmount[msg.sender] = msg.value;
     }
 
+    //2633.73414900
+    //0.0379689043550462 个
+    //0.037
+    //37Finney的eth是100USD
     function getChainlinkDataFeedLatestAnswer() public view returns (int256) {
         // prettier-ignore
         (
